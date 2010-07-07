@@ -6,7 +6,7 @@ Ruby script to execute an arbitrary command whenever a file changes.
 Installation
 ------------
 
-    gem install sinefunc-rstakeout
+    gem install rstakeout
     # Mac users: install `growlnotify` from the Growl DWG to get notifications
 
 Common usage
@@ -21,13 +21,12 @@ Common usage
 Authors
 -------
 
-This project has been forked from github.com/edvardm/rstakeout, which was forked from topfunky. The original author is Mike Clark.
+Original by Mike Clark, enhanced by topfunky
 
-Sinefunc has forked this project to:
+Contributors:
 
- - Make this project a gem (easily installable with gem install)
- - New icons
- - Small feature additions
+* sinefunc
+* EdvardM
 
 Copyright
 ---------

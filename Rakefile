@@ -4,12 +4,12 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "sinefunc-rstakeout"
-    gem.summary = "Watches a directory for any changes"
+    gem.name = "rstakeout"
+    gem.summary = "Runs a command when a change is detected in given files"
     gem.description = "This gem watches a given directory for any changes and executes a given command when something is changed."
-    gem.email = "rico@sinefunc.com"
-    gem.homepage = "http://github.com/sinefunc/rstakeout"
-    gem.authors = ["edvardw", "topfunky"]
+    gem.email = "edvard@majakari.net"
+    gem.homepage = "http://github.com/EdvardM/rstakeout"
+    gem.authors = ["sinefunc", "EdvardM", "topfunky"]
     #gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
